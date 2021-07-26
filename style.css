@@ -1,0 +1,282 @@
+.main{
+
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.left_portion{
+
+    width: 400px;
+
+}
+
+.playlist_icon{
+  
+    margin-left: 364px;    
+}
+
+.saved_searches{
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+.headline{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: flex;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+.sub_info_savedsearches{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    color: blue;
+    
+}
+
+#search_options{
+   margin-right: 10px;
+   margin-left: 10pX;
+}
+
+.filters{
+    margin-top: 30px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 0px 5px 20px 5px;
+}
+
+.sub_info_filters{
+    background-color: lightgray;
+    margin-top: 20px;
+
+}
+
+.filter_tabs{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px; 
+    color: blue;
+    height: 50px;
+}
+
+.filter_tabs_color{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: blue;
+    
+}
+
+.checkboxes{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+    
+}
+.filter_color{
+    border-radius:10px;
+    background-color: white;
+    width: 370px;
+    margin-left: 5px;
+}
+
+.apply_filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+}
+
+
+.right_portion{
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 7px;
+    max-width: 800px;
+}
+
+.Available_search_bar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.available{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    color: blue;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+  .search_bar{
+
+    background-color: lightgray;
+    padding: 2px;
+    margin: 4px;
+    
+  }
+
+  .top_right_icons{
+      display: flex;
+      justify-content: space-between;
+      width: 150px;
+      color: blue;
+  }
+
+  .available_serach_top_right_icons{
+      display: flex;
+      width: 800px;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .vehicle_criterion_results{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    height: 20px;
+    color: blue;
+  }
+
+
+  .BMW_SERIES{
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    background-color: white;
+    
+  }
+
+  .Add_to_watchlist{
+      display: flex;
+      align-items: center;
+      width: 140px;
+      font-size: small;
+      color: blue;
+      margin-left: 20px;
+  }
+
+  .aligner{
+    width: 192px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .car_details{
+    margin-left: 10px;
+  }
+  
+ .aligner-2{
+
+    
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .car_sub_details{
+     margin-top: 10px;
+     display: flex;
+     
+     display: flex;
+     justify-content: space-between;
+     width: 250px;
+ }
+
+ .car_sub_details_tab{
+     margin-top: 5px;
+     background-color: lightyellow;
+     border-radius: 4px;
+ }
+
+ .bids_proxies{
+
+    margin-top: 5px;
+    color: blue;
+ }
+
+ .seller_name{ 
+     margin-top: 5px;
+ }
+
+ .bid_results{
+     margin-left: 90px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 30px;
+ }
+
+ .bid_timing{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    color: orange;
+ }
+
+ .bid_prices{
+    background-color: blue;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .light{
+   
+    margin-left: 30px;
+ }
+
+ 

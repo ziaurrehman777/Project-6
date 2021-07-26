@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"   href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="main">
+
+            <div class="left_portion">
+                <div class="playlist_icon">
+                    <i class="material-icons" style="font-size:36px; color: blue;">playlist_play</i>
+                </div>
+                <div class="saved_searches">
+                    <div class="headline">   
+                        <div>
+                            <i class="material-icons">file_download</i>
+                            <span>
+                                Saved Searches
+                            </span>
+                        </div>
+                        <i class="material-icons">arrow_upward</i>
+                    </div>
+                    <div class="sub_info_savedsearches" >
+                        <span> 2016-2018</span>
+                        <i class="material-icons">delete</i>
+                    </div>
+                    <div class="sub_info_savedsearches">
+                        <span> BMW 2018</span>
+                        <i class="material-icons">delete</i>
+                    </div>
+                    <div class="sub_info_savedsearches">
+                        <p>All Saved Searches</p>
+                    </div>
+                    <div class="sub_info_savedsearches" id="search_options">
+                        <span style="border: 1px solid blue; padding: 12px; border-radius: 4px;">Save This Search</span>
+                        <span style="border: 1px solid blue; padding: 12px; border-radius: 4px;">Create Search Save</span>
+                    </div>
+                </div>
+
+                <div class="filters">
+                    <div class="headline">
+                        <div>
+                            <i class="material-icons">filter_list</i>
+                            <span>Filters</span>
+                            <span style="margin-left: 8px; text-decoration: underline;">Clear All</span>
+                        </div>
+                        <i class="material-icons">arrow_upward</i>
+                    </div>
+                    <div class="sub_info_filters">
+                        <div class="filter_tabs">
+                            <span>Year</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Make</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Model</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Trim</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>VIN</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_color">
+                            <div class="filter_tabs_color">
+                                <span>Color</span>
+                                <i class="material-icons">arrow_downward</i>
+                            </div>
+                            <div class="checkboxes">
+                                <form action="/action_page.php">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1"> Black</label><br>
+                                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                    <label for="vehicle2"> Blue</label><br>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Grey</label><br>
+                                    <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Red</label> <br>
+                                    <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> Silver</label><br>
+                                    <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
+                                    <label for="vehicle3"> White</label>
+                                    
+                                </form>
+                            </div>
+
+                        </div>
+                        <div class="filter_tabs">
+                            <span>City</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Province/State</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Owner</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Odometer</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Distance From Me</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Autograde</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Transmission</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Engine Cylinder</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+
+                        <div class="filter_tabs">
+                            <span>Drivetrain</span>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+                    </div>
+                    
+                    <div class="apply_filters">
+                        <span style="border: 1px solid blue; padding: 12px; border-radius: 4px;"> Apply Filters</span>
+                        <span> Clear All</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="right_portion">
+                <div class="available_serach_top_right_icons">
+                    <div class="Available_search_bar">
+                        <div class="available">
+                            <i class="material-icons">play_circle_outline</i>
+                            <span>Available</span>
+                        </div>
+                        <div class="search_bar">
+                            <input type="text" name="search" placeholder="Search..">
+                        </div>
+                    </div>
+
+                    <div class="top_right_icons">
+                        <div class="events_sort_watchlist">
+                            <i class="material-icons">event_note</i>
+                            <i class="material-icons">sort</i>
+                            <i class="material-icons">remove_red_eye</i>
+                        </div>
+
+                        <div class="listviews">
+                             <i class="material-icons">view_headline</i>
+                            <i class="material-icons">view_list</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vehicle_criterion_results">
+                    <p>
+                        13 Vehicles Matches this Criteria
+                    </p>
+                    <button type="button" onclick="alert('LAHORE')">Actions <i class="material-icons" style="font-size: 12px; color: blue;">arrow_downward</i></button>
+                </div>
+                <div class="backgroundcolor">
+                    <div class="BMW_SERIES">  
+                        <div>
+                            <img src="bmw4seriescoup.JPG">      
+                            <div class="aligner">
+                                <div class="Add_to_watchlist">
+                                    <p>
+                                        <i class="material-icons">remove_red_eye</i>
+                                    </p>
+                                    <span> Add To Watchlist</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car_details">
+                        <span style="font-size: x-large; font-weight: bold; color: blue;">BMW 4 Series Coupe </span> <br>
+                            <div class="aligner-2">
+                                <span>KNDPM3AC3L7723530</span>
+                                <i class="material-icons" style="color: blue;">directions_car</i>
+                                <i class="material-icons" style="color: yellow;">highlight</i>
+                            </div>
+                            <div class="car_sub_details">
+                                <div>   
+                                    <div class="car_sub_details_tab">
+                                        <span style="color: lightgray;">
+                                            Odometer
+                                        </span>
+                                        <br>
+                                        <span>
+                                            23,104 KM
+                                        </span>
+                                    </div>
+                                    <div class="car_sub_details_tab">
+                                        <span style="color: lightgray;">
+                                            Location
+                                        </span>
+                                        <br>
+                                        <span>
+                                            Oswaha, ON
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="car_sub_details_tab">
+                                        <span style="color: lightgray;">
+                                            leasing Bid
+                                        </span>
+                                        <br>
+                                        <span>
+                                            28,000 KM
+                                        </span>
+                                    </div>
+                                    <div class="bids_proxies">
+                                        <span>
+                                            Bids (1)
+                                        </span>
+                                        <br>
+                                        <span>
+                                            Proxy Bidding
+                                        </span>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        
+                        <div class="seller_name">
+                                <spam style="color: blue;">
+                                    Seller <br>
+                                    SPD Tires and Auto Repair Center
+                                </spam>
+                            </div>
+
+                        </div>
+                        <div class="bid_results">
+
+                            <div class="bid_timing">
+                                <i class="material-icons">access_time</i>
+                                <span>4d 22:04:38</span>
+                            </div>
+
+                            <div class="bid_prices">
+                                <p>
+                                    Place Bid $29,000
+                                </p>
+                            </div>
+                            <div class="bid_prices">
+                                <p>
+                                    Buy Now $31,999
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="light">
+                            <i class="material-icons" style="color: green;">lightbulb_outline</i> <br>
+                            <span style="font-size: small;">Green Light</span>
+                        </div>  
+                    </div>  
+
+                    <div class="BMW_SERIES">  
+                        <div>
+                            <img src="bmw4seriescoup.JPG">      
+                            <div class="aligner">
+                                <div class="Add_to_watchlist">
+                                    <p>
+                                        <i class="material-icons">remove_red_eye</i>
+                                    </p>
+                                    <span> Add To Watchlist</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car_details">
+                        <span style="font-size: x-large; font-weight: bold; color: blue;">BMW 4 Series Coupe </span> <br>
+                            <div class="aligner-2">
+                                <span>KNDPM3AC3L7723530</span>
+                                <i class="material-icons" style="color: blue;">directions_car</i>
+                                <i class="material-icons" style="color: yellow;">highlight</i>
+                            </div>
+                            <div class="car_sub_details">
+                                <div>   
+                                    <div class="car_sub_details_tab">
+                                        <span style="color: lightgray;">
+                                            Odometer
+                                        </span>
+                                        <br>
+                                        <span>
+                                            23,104 KM
+                                        </span>
+                                    </div>
+                                    <div class="car_sub_details_tab">
+                                        <span style="color: lightgray;">
+                                            Location
+                                        </span>
+                                        <br>
+                                        <span>
+                                            Oswaha, ON
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="car_sub_details_tab">
+                                        <span style="color: lightgray;">
+                                            leasing Bid
+                                        </span>
+                                        <br>
+                                        <span>
+                                            28,000 KM
+                                        </span>
+                                    </div>
+                                    <div class="bids_proxies">
+                                        <span>
+                                            Bids (1)
+                                        </span>
+                                        <br>
+                                        <span>
+                                            Proxy Bidding
+                                        </span>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        
+                        <div class="seller_name">
+                                <spam style="color: blue;">
+                                    Seller <br>
+                                    SPD Tires and Auto Repair Center
+                                </spam>
+                            </div>
+
+                        </div>
+                        <div class="bid_results">
+
+                            <div class="bid_timing">
+                                <i class="material-icons">access_time</i>
+                                <span>4d 22:04:38</span>
+                            </div>
+
+                            <div class="bid_prices">
+                                <p>
+                                    Place Bid $29,000
+                                </p>
+                            </div>
+                            <div class="bid_prices">
+                                <p>
+                                    Buy Now $31,999
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="light">
+                            <i class="material-icons" style="color:red;">lightbulb_outline</i> <br>
+                            <span style="font-size: small;">Red Light</span>
+                        </div>        
+                    </div> 
+
+                    <div class="BMW_SERIES">  
+                        <div>
+                            <img src="bmw4seriescoup.JPG">      
+                            <div class="aligner">
+                                <div class="Add_to_watchlist">
+                                    <p>
+                                        <i class="material-icons">remove_red_eye</i>
+                                    </p>
+                                    <span> Add To Watchlist</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car_details">
+                        <span style="font-size: x-large; font-weight: bold; color: blue;">BMW 4 Series Coupe </span> <br>
+                            <div class="aligner-2">
+                                <span>KNDPM3AC3L7723530</span>
+                                <i class="material-icons" style="color: blue;">directions_car</i>
+                                <i class="material-icons" style="color: yellow;">highlight</i>
+                            </div>
+                            <div class="car_sub_details">
+                                <div>   
+                                    <div class="car_sub_details_tab">
+                                        <span style="color: lightgray;">
+                                            Odometer
+                                        </span>
+                                        <br>
+                                        <span>
+                                            23,104 KM
+                                        </span>
+                                    </div>
+                                    <div class="car_sub_details_tab">
+                                        <span style="color: lightgray;">
+                                            Location
+                                        </span>
+                                        <br>
+                                        <span>
+                                            Oswaha, ON
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="car_sub_details_tab">
+                                        <span style="color: lightgray;">
+                                            leasing Bid
+                                        </span>
+                                        <br>
+                                        <span>
+                                            28,000 KM
+                                        </span>
+                                    </div>
+                                    <div class="bids_proxies">
+                                        <span>
+                                            Bids (1)
+                                        </span>
+                                        <br>
+                                        <span>
+                                            Proxy Bidding
+                                        </span>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        
+                        <div class="seller_name">
+                                <spam style="color: blue;">
+                                    Seller <br>
+                                    SPD Tires and Auto Repair Center
+                                </spam>
+                            </div>
+
+                        </div>
+                        <div class="bid_results">
+
+                            <div class="bid_timing">
+                                <i class="material-icons">access_time</i>
+                                <span>4d 22:04:38</span>
+                            </div>
+
+                            <div class="bid_prices">
+                                <p>
+                                    Place Bid $29,000
+                                </p>
+                            </div>
+                            <div class="bid_prices">
+                                <p>
+                                    Buy Now $31,999
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="light">
+                            <i class="material-icons" style="color: green;">lightbulb_outline</i> <br>
+                            <span style="font-size: small;">Green Light</span>
+                        </div>
+                    </div>  
+                
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </body>
+</html>
